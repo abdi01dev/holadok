@@ -1,0 +1,12 @@
+* {
+  margin: auto;
+  padding: auto;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+
+  &.debug * {
+    outline: 1px solid red;
+  }
+}

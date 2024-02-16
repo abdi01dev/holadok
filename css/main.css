@@ -1,0 +1,11 @@
+* {
+  margin: auto;
+  padding: auto;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+body.debug * {
+  outline: 1px solid red;
+}/*# sourceMappingURL=main.css.map */
