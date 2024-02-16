@@ -13,7 +13,96 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css" />
   </head>
-  <body
-    >Holadok</body
-  >
+  <body>
+    <div class="main-container">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar__brand-wrapper">
+            <svg class="navbar__logo" xmlns="http://www.w3.org/2000/svg" width="24" height="25" fill="none" viewBox="0 0 24 25">
+              <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.8 2.8a.3.3 0 1 0 .2-.3H4a2 2 0 0 0-2 2v5a6 6 0 1 0 12 0v-5a2 2 0 0 0-2-2h-1a.213.213 0 0 0 .15.362.212.212 0 0 0 .15-.062" />
+              <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 15.5v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4m0 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" />
+            </svg>
+            <span class="navbar__brand">Holadok</span>
+          </div>
+          <ul class="navbar__link-wrapper">
+            <li><a href="" class="navbar__link">Home</a></li>
+            <li><a href="" class="navbar__link">Feature</a></li>
+            <li><a href="" class="navbar__link">Blog</a></li>
+            <li><a href="" class="navbar__link">About Us</a></li>
+          </ul>
+          <div class="navbar__button--wrapper">
+            <button class="navbar__button navbar__button--login">Login</button>
+            <button class="navbar__button navbar__button--book-now">Book Now</button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero -->
+      <section class="section section--hero">
+        <div class="hero">
+          <div class="hero__text-wrapper">
+            <h1 class="hero__headline">Get the healthcare you need, when you need it.</h1>
+            <p class="hero__description">Manage all of your healthcare needs in one convenient place – from booking appointments to tracking your health history.</p>
+            <button class="hero__button">Book an Appoinment</button>
+          </div>
+          <div class="hero__image-wrapper">
+            <img src="assets/images/hero-image.png" alt="Hero Image" />
+            <div class="card card--testimonial">
+              <div class="card__header">
+                <div class="card__testimonial-info">
+                  <div class="card__image-wrapper">
+                    <img src="assets/images/testimonial.png" alt="Testimonial Image" />
+                  </div>
+                  <h4 class="card__testimonial-name">Jane Doe</h4>
+                </div>
+                <svg class="card__symbol" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path fill="#000" fill-opacity=".2" d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1Zm12 0c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1Z" />
+                </svg>
+              </div>
+              <div class="card__body">
+                <p class="card__testimonial-content">“The doctor appointment app has been great for me. Scheduling appointments and getting medication reminders is much easier, and I love the option for virtual consultations. I'd recommend this app to others.”</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section class="section section--features">
+        <div class="features">
+          <div class="features__item-wrapper">
+            <svg class="features__icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" viewBox="0 0 40 40">
+              <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M31.667 6.667H8.333A3.333 3.333 0 0 0 5 10v23.333a3.333 3.333 0 0 0 3.333 3.334h23.334A3.333 3.333 0 0 0 35 33.333V10a3.333 3.333 0 0 0-3.333-3.333Zm-5-3.334V10M13.333 3.333V10M5 16.667h30m-21.667 6.666h.017m6.65 0h.017m6.65 0h.016M13.333 30h.017M20 30h.017m6.65 0h.016" opacity=".6" />
+            </svg>
+            <div class="features__content-wrapper">
+              <h3 class="features__title">Online appointment scheduling</h3>
+              <p class="features__description">Allows users to schedule appointments with their healthcare provider through the app.</p>
+            </div>
+          </div>
+          <div class="features__item-wrapper">
+            <svg class="features__icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" viewBox="0 0 40 40">
+              <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M30 13.333a10 10 0 0 0-20 0c0 11.667-5 15-5 15h30s-5-3.333-5-15ZM22.883 35a3.334 3.334 0 0 1-5.766 0" opacity=".6" />
+            </svg>
+            <div class="features__content-wrapper">
+              <h3 class="features__title">Medication reminders</h3>
+              <p class="features__description">Allows users to schedule appointments with their healthcare provider through the app.</p>
+            </div>
+          </div>
+          <div class="features__item-wrapper">
+            <svg class="features__icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" viewBox="0 0 40 40">
+              <g opacity=".6">
+                <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 30c7.364 0 13.333-5.97 13.333-13.333 0-7.364-5.97-13.334-13.333-13.334-7.364 0-13.333 5.97-13.333 13.334C6.667 24.03 12.637 30 20 30Z" />
+                <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 21.667a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm-8.333 15h16.666m-8.333 0V30" />
+              </g>
+            </svg>
+            <div class="features__content-wrapper">
+              <h3 class="features__title">Virtual consultations</h3>
+              <p class="features__description">Allows users to schedule appointments with their healthcare provider through the app.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
